@@ -183,7 +183,6 @@ nav li a {
   display: flex;
   justify-content: center;
   padding: 0 140px;
-  
 }
 .section-title {
   text-align: center;
@@ -257,13 +256,12 @@ nav li a {
   position: relative;
   bottom: 120px;
 }
-.small-img img
-{
+.small-img img {
   height: 150px;
   width: 120px;
 }
 
-   /* online-section */
+/* online-section */
 .online {
   display: flex;
   align-items: center;
@@ -310,10 +308,50 @@ nav li a {
   position: relative;
   bottom: 120px;
 }
-.online-small-img img
-{
+.online-small-img img {
   height: 150px;
   width: 120px;
+}
+
+/* game-name section  */
+
+.game-name {
+  padding: 0 140px;
+}
+
+.first-row, .second-row  {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.first-row .game-card {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 16px;
+}
+.second-row .game-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.game-card img {
+  height: 30px;
+  width: 30px;
+}
+.game-card h6 {
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#game-card-3 {
+  width: 180px;
+  margin-top: 23px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1.5px solid var(--Linear, #ff42a5);
 }
 /* media queries  */
 
