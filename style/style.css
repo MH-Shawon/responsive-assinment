@@ -54,7 +54,7 @@
 header {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  padding: 50px 140px;
+  padding: 10px 140px;
 }
 
 .section-title {
@@ -99,7 +99,7 @@ nav li a {
   display: flex;
 }
 .banner-content {
-  width: 50%;
+  width: 40%;
   text-align: center;
   padding: 60px;
   fill: linear-gradient(
@@ -107,6 +107,8 @@ nav li a {
     rgba(140, 87, 238, 0.03) 3.9%,
     rgba(241, 68, 174, 0.03) 100.56%
   );
+  margin-top: 20px;
+  background-image: url("../images/Group 14.png");
 }
 
 .banner-title-1 {
@@ -116,6 +118,7 @@ nav li a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin: 0px;
   text-transform: uppercase;
 }
 .banner-title-2 {
@@ -129,11 +132,11 @@ nav li a {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0px;
 }
 
-.banner img {
-  margin-top: 20px;
-  width: 50%;
+.banner .b-img {
+  width: 40%;
 }
 
 /* gamer section  */
@@ -312,6 +315,53 @@ nav li a {
   height: 150px;
   width: 120px;
 }
+/* career section  */
+.career-container {
+  height: 450px;
+  padding: 0px 140px;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.career {
+  display: flex;
+}
+.careers-content {
+  width: 50%;
+}
+.careers-content h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.careers-content p {
+  color: #fff;
+  font-size: 0.9rem;
+  padding-top: 0px;
+  margin: 5px auto 20px;
+}
+.careers-content ul {
+  color: #fff;
+  font-size: 1.05rem;
+}
+.ul-cols-list > ul {
+  display: flex;
+  gap: 10px;
+  padding: 0px;
+}
+.career-btn {
+  border-radius: 48px;
+  background: #fff;
+  border: 0px;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  color: #FF42A5;
+  font-size: 18px;
+}
+.careers-img {
+  width: 50%;
+}
 
 /* game-name section  */
 
@@ -319,14 +369,14 @@ nav li a {
   padding: 0 140px;
 }
 
-.first-row, .second-row  {
+.first-row,
+.second-row {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 .first-row .game-card {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 16px;
 }
@@ -355,44 +405,43 @@ nav li a {
 }
 
 /* foooter section  */
-footer{
+footer {
   height: 400px;
-  background: #0B0223;
+  background: #0b0223;
 }
-.f-icon{
+.f-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; 
-  
+  gap: 10px;
 }
 
-
-.list-div{
+.list-div {
   color: #fff;
   margin-top: -40px;
 }
 .list-div ul {
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
   gap: 30px;
   list-style: none;
 }
-.list-div-2{
-  color: rgba(255, 255, 255, 0.60);
+.list-div-2 {
+  color: rgba(255, 255, 255, 0.6);
   margin-top: 10px;
-  
 }
 .list-div-2 ul {
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
   gap: 20px;
   list-style: none;
   font-weight: 500;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-footer p{
-  color: rgba(255, 255, 255, 0.60);
+footer p {
+  color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  font-size: .7rem;
+  font-size: 0.7rem;
   margin-top: 20px;
 }
 
@@ -421,57 +470,56 @@ footer p{
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;
 }
-
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+/* social button transform used  */
+.rounded-social-buttons .social-butcareers-imgton:hover,
+.rounded-social-buttons .social-button:focus {
   -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
   font-size: 25px;
 }
 
-.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
   color: #3b5998;
   background: #fefefe;
   border-color: #3b5998;
 }
 
-
-
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
   color: #55acee;
   background: #fefefe;
   border-color: #55acee;
 }
 
-
-
-.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
 }
 
-
-
-.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
   background: #fefefe;
   border-color: #bb0000;
 }
 
-
-
-.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
 }
-
-
-
 
 /* media queries  */
 
