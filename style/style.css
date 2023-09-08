@@ -123,7 +123,7 @@ nav li a {
 }
 .banner-title-2 {
   text-align: center;
-  font-size: 95px;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -531,23 +531,113 @@ footer p {
 
   nav,
   .gamer-container,
-  .banner-content,
   .gamers-content,
-  .games-card-container {
+  .games-card-container,
+  .anniversary,.online,.career  {
     flex-direction: column;
   }
+ nav ul{
+  display: grid;
+  gap:10px
+ }
+ .banner{
+  flex-direction: column-reverse;
+ }
+ .banner .b-img, .img-1{
+  width: 90%;
+  padding: 20px;
+ }
+  .anniversary{
+    padding: 0px 0px;
+  }
+  .banner-content, .gamers-content{
+    width: 65%;
+    height: 50%;
+  }
+  .gamer-container{
+    padding: 10px 20px;
+  }
+  .gamers-content .gamers-title{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .gamers-content p{
+    text-align: center;
+  }
+  .gamers-content h3{
+    font-size: .9rem;
+    text-align: center;
+  }
+  .facts, .section-title, .funny{
+    font-size: 1.5rem;
+  }
+  .facts .games-card-container{
+    padding: 0px 40px;
+  }
+  .facts .card{
+    width: 100%;
+  }
+  .anniversary-content .text-primary {
+    text-align: center;
+  }
+  .anniversary-content .section-title, .play{
+    font-size: 1rem;
+  }
+  .anniversary-img .anni-img{
+    width: 60%;
+    height: 60%;
+  }
+  .anniversary-img .small-img{
+    padding-top: 40px;
+    height: 15%;
+    width: 15%;
+  }
+  .online{
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+  .online .online-content{
+    width: 100%;
 
-  .gamers-content,
-  .games-card-container {
-    padding-right: 60px;
-    padding-left: 80px;
+  }
+  .online .online-img{
+    padding:0px 25px;
   }
 
-  .games-card-container {
-    gap: 20px;
+  .online-content .section-title, .play{
+    font-size: 1rem;
   }
-  nav > ul {
-    flex-direction: column;
-    gap: 25px;
+  .online-content .text-primary{
+    text-align: center;
   }
+  .career-container{
+    padding: 0px 20px;
+    height: 100%;
+  }
+  .careers-content{
+    text-align: center;
+    width: auto;
+  }
+  
+  .careers-img img{
+    width: 100vw;
+  }
+  .careers-content .career-btn{
+    padding: 10px;
+    margin-right: 260px;
+  }
+  
+    .game-name{
+      display: grid;
+      padding: 0px 20px;
+    }
+    .first-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .second-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  
 }
