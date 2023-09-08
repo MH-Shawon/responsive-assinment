@@ -336,9 +336,9 @@ nav li a {
 }
 .careers-content p {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-top: 0px;
-  margin: 5px auto 20px;
+  margin-bottom: 50px;
 }
 .careers-content ul {
   color: #fff;
@@ -358,6 +358,7 @@ nav li a {
   align-items: flex-start;
   color: #FF42A5;
   font-size: 18px;
+  text-align: left;
 }
 .careers-img {
   width: 50%;
